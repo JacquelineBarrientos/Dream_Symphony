@@ -1,9 +1,9 @@
 .nav {
     text-align: center;
 }
-.footer{
-    background: url('../img/txt.jpg');
-    position: fixed;
+footer{
+    background: url(../img/png/footer.jpg);opacity: 0.9;
+    position: relative;
     bottom: 0;
     width:100% ;
     color: white;
@@ -28,3 +28,33 @@
 .uno {
     text-align: center;
 }
+.fondo{
+        background-attachment: fixed;
+	background-color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+        height: 100%;
+	margin: 0;
+	padding:0;
+        width: 100%;
+}
+.button-up{
+    background-color: #000;
+    border-radius: 3px;
+    bottom: 1%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: fixed;
+    right: 1%;
+    text-align: center;
+    z-index: 100;
+}
+body{
+   background: url('../img/png/bg5.jpg');opacity: 0.9;
+}
+
+

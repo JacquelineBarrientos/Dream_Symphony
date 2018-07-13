@@ -12,14 +12,17 @@
 }
 
 #fondo{
-    background-color: #f0f0f0;
+    background-color: #fff;
 }
 
 #section1{
-    background: #fefefe;
+    background: #000;opacity: 0.8;
     width: 700px;
     height: 600px;
     float: left;
+  color: #fff;
+   
+    
 }
 
 #ProductoD{
@@ -29,6 +32,7 @@
 #Cards{
     width: 200px;
     height: 500px;
+    background-color: #000;
 }
 
 #BotonVP{
@@ -36,7 +40,7 @@
 }
 
 #section2{
-    background: #17a2b8;
+    background: #17a2b8;opacity: 0.9;
     width: 900px;
     height: 500px;
     margin-bottom: 15px;
@@ -54,8 +58,9 @@
 }
 
 aside{
-    background: #155724;
+    background: #000; opacity: 0.9;
     float: right;
+    color: white;
 }
 
 #imgP1{
@@ -76,3 +81,4 @@ aside{
     height: 300px;
     width: 500px;
 }
+
