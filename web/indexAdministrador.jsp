@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 12-07-2018, 17:23:13
+    Document   : indexAdministrador
+    Created on : 13-07-2018, 3:18:01
     Author     : Jacky
 --%>
 
@@ -24,7 +24,7 @@
                     <%--REGISTRO; LOGO ; BUSCAR--%>
                     
                     <div class="container text-center text-md-left">
-                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href="RegistroU.jsp"> Regístrese Aquí</a></div>
+                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href="RegistroA.jsp"> Regístrese Aquí</a></div>
                         <nav class="navbar navbar-light bg-light" >
                             <a class="navbar-brand" href="index.jsp">
                                 <img src="img/84e2923c079808d1bf168dd86e06aff5.jpg" width="30" height="30" class="d-inline-block align-top" alt="">

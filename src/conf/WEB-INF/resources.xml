@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <Resource id="DS_Database" type="javax.sql.DataSource">#Fri Jul 13 02:35:31 CLT 2018
+jdbcDriver=org.apache.derby.jdbc.ClientDriver
+password=1234
+userName=root
+jdbcUrl=jdbc\:derby\://localhost\:1527/Dream_Symphony
+</Resource>
+</resources>

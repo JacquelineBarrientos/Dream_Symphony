@@ -24,7 +24,7 @@
                     <%--REGISTRO; LOGO ; BUSCAR--%>
                     
                     <div class="container text-center text-md-left">
-                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href=""> Regístrese Aquí</a></div>
+                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href="RegistroU.jsp"> Regístrese Aquí</a></div>
                         <nav class="navbar navbar-light bg-light" >
                             <a class="navbar-brand" href="index.jsp">
                                 <img src="img/84e2923c079808d1bf168dd86e06aff5.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -32,6 +32,9 @@
                             </a>
                             <a href="CarritoCompra.jsp">
                                 <img src="img/Carro.png" width="40" height="40">
+                            </a>
+                            <a href="Ingreso.jsp">
+                                <img src="img/maquina-de-escribir.png" width="40" height="40">
                             </a>
                             <form class="form-inline">
                                 <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" size="65">

@@ -16,24 +16,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
         <div align="center">
-            <h2>INGRESO PRODUCTO</h2> <br>
-            <div class="form-group col-md-6">
-                <label for="NombreP">Nombre producto: </label>
-                <input type="text" class="form-control" id="NombreP" >
-            </div>
-            <div class="form-group col-md-6">
-                <label for="CodigoP">Codigo: </label>
-                <input type="text" class="form-control" id="CodigoP" >
-            </div>
-            <div class="form-group col-md-6">
-                <label for="DescripcionP">Descripcion : </label>
-                <textarea type="text" class="form-control" id="DescripcionP"></textarea>
-            </div>
-            <div class="form-group col-md-6">
-                <label for="ImagenP">Adjuntar imagen</label><br>
-                <input type="file" id="ImagenP">
-            </div>
-            <button type="submit" class="btn btn-primary" formaction="">Añadir Producto</button>
+            <form action="Servlet_IngresarProducto" method="POST">
+                <h2>INGRESO PRODUCTO</h2> <br>
+                <div class="form-group col-md-6">
+                    <label for="num_CodigoP">Codigo: </label>
+                    <input type="number" class="form-control" id="CodigoP" name="num_CodigoP">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="txt_NombreP">Nombre producto: </label>
+                    <input type="text" class="form-control" id="NombreP" name="txt_NombreP">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="txt_MarcaP">Marca producto: </label>
+                    <input type="text" class="form-control" id="NombreP" name="txt_MarcaP">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="num_PrecioP">Precio: </label>
+                    <input type="number" class="form-control" id="CodigoP" name="num_PrecioP">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="txtA_DescripcionP">Descripcion : </label>
+                    <textarea type="text" class="form-control" id="DescripcionP" name="txtA_DescripcionP"></textarea>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="num_StockP">Stock: </label>
+                    <input type="number" class="form-control" id="CodigoP" name="num_StockP">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="txt_CategoriaP">Categoria producto: </label>
+                    <input type="text" class="form-control" id="NombreP" name="txt_CategoriaP">
+                </div>
+                <button type="submit" class="btn btn-primary" formaction="">Añadir Producto</button>
+            </form>
+            
                 
         </div>
             
