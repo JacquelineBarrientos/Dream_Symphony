@@ -1,0 +1,78 @@
+#CodigoP{
+    width: 500px;
+}
+
+#NombreP{
+    width: 500px;
+}
+
+#DescripcionP{
+    width: 500px;
+    height: 150px;
+}
+
+#fondo{
+    background-color: #f0f0f0;
+}
+
+#section1{
+    background: #fefefe;
+    width: 700px;
+    height: 600px;
+    float: left;
+}
+
+#ProductoD{
+    height: 500px;
+}
+ 
+#Cards{
+    width: 200px;
+    height: 500px;
+}
+
+#BotonVP{
+    margin-bottom: 22px;
+}
+
+#section2{
+    background: #17a2b8;
+    width: 900px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+#img{
+    margin-top: 55px;
+}
+
+#section3{
+    background: #fefefe;
+    width: 700px;
+    height: 450px;
+    float: bottom;
+}
+
+aside{
+    background: #155724;
+    float: right;
+}
+
+#imgP1{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#desP1{
+    margin-left: 15px;
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+
+
+#desP{
+    position: static;
+    height: 300px;
+    width: 500px;
+}
