@@ -60,7 +60,7 @@
 aside{
     background: #000; opacity: 0.9;
     float: right;
-    color: white;
+    color: #fff;
 }
 
 #imgP1{
@@ -81,6 +81,4 @@ aside{
     height: 300px;
     width: 500px;
 }
-#letra1{
-    color: #fff;
-}
+

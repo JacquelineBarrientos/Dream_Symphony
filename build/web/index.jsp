@@ -33,6 +33,7 @@
                 <div class="col">
                     
                     <%--REGISTRO; LOGO ; BUSCAR--%>
+
                     <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #ffffff;opacity: 0.8;">
                 <img src="img/Icons/Martz90-Circle-Music.ico" width="30" height="30" class="d-inline-block align-top" alt="">  
                  <a class="navbar-brand" href="#">DreamOfSymphony</a>
@@ -71,6 +72,38 @@
            Guitarras
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                    
+                    <div class="container text-center text-md-left">
+                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href="RegistroU.jsp"> Regístrese Aquí</a></div>
+                        <nav class="navbar navbar-light bg-light" >
+                            <a class="navbar-brand" href="index.jsp">
+                                <img src="img/84e2923c079808d1bf168dd86e06aff5.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                                Dream Of Symphony
+                            </a>
+                            <a href="CarritoCompra.jsp">
+                                <img src="img/Carro.png" width="40" height="40">
+                            </a>
+                            <a href="Ingreso.jsp">
+                                <img src="img/maquina-de-escribir.png" width="40" height="40">
+                            </a>
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" size="65">
+                                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" >Buscar</button>
+                            </form>
+                        </nav>
+                    </div>
+                    
+                    <%--MENÚ(?--%>
+                    
+                    <div align="center">
+                        <div>
+                            <div class="btn-group">
+                                <button  type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Guitarras
+                                </button>
+                                <div class="dropdown-menu">
+
                                     <a class="dropdown-item" href="#">Guitarras Electricas</a>
                                     <a class="dropdown-item" href="#">Guitarras Acusticas</a>
                                     <a class="dropdown-item" href="#">Guitarras Electroacústicas</a>

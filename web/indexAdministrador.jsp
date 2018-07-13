@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 12-07-2018, 17:23:13
+    Document   : indexAdministrador
+    Created on : 13-07-2018, 3:18:01
     Author     : Jacky
 --%>
 
@@ -8,74 +8,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="Shortcut Icon" type="image/x-icon" href="img/Icons/Martz90-Circle-Music.ico" />
-        <script src="js/main.js"></script>
-        <script src="js/modernizr.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
-        <link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/dream.css" >
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/Centrar.css" >
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title >DreamOfSymphony2</title>
     </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <body id="fondo">
-        <div class="button-up hidden-xs">
-        <i class="fa fa-arrow-circle-up"></i> &nbsp; Ir arriba
-    </div>
         <div class="container">
             <div class="row">
                 <div class="col">
                     
                     <%--REGISTRO; LOGO ; BUSCAR--%>
-
-                    <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #ffffff;opacity: 0.8;">
-                <img src="img/Icons/Martz90-Circle-Music.ico" width="30" height="30" class="d-inline-block align-top" alt="">  
-                 <a class="navbar-brand" href="#">DreamOfSymphony</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                 <a class="nav-link" href="#">Iniciar Sesion <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Registrase</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Carro de Compras</a>
-                </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-            </div>
-            </nav>
-                                        <%--Menu(?--%>
- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;opacity: 0.8;">
-   
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <div align="center">  
-      <ul class="navbar-nav mr-auto">
-      
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Guitarras
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
                     
                     <div class="container text-center text-md-left">
-                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href="RegistroU.jsp"> Regístrese Aquí</a></div>
+                        <div class="Register" ><img src="img/cl.png" width="30" height="30" class="d-inline-block align-top" alt=""> Para mejor experiencia de Usuario :<a href=""> Ingrese Aquí</a> o <a href="RegistroA.jsp"> Regístrese Aquí</a></div>
                         <nav class="navbar navbar-light bg-light" >
                             <a class="navbar-brand" href="index.jsp">
                                 <img src="img/84e2923c079808d1bf168dd86e06aff5.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -103,7 +52,6 @@
                                     Guitarras
                                 </button>
                                 <div class="dropdown-menu">
-
                                     <a class="dropdown-item" href="#">Guitarras Electricas</a>
                                     <a class="dropdown-item" href="#">Guitarras Acusticas</a>
                                     <a class="dropdown-item" href="#">Guitarras Electroacústicas</a>
@@ -111,61 +59,61 @@
                                     <a class="dropdown-item" href="#">Efectos</a>
                                     <a class="dropdown-item" href="#">Acc. Guitarras y Bajos</a>
                                     <a class="dropdown-item" href="#">Ukeleles</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Bajos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Bajos
+                                </button>
+                                <div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">Bajos Eléctrico</a>
                                     <a class="dropdown-item" href="#">Bajo Acústico</a>
                                     <a class="dropdown-item" href="#">Amplificadores</a>
                                     <a class="dropdown-item" href="#">Efectos</a>
                                     <a class="dropdown-item" href="#">Acc. Guitarras y Bajo</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Bateria y Percusión
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Bateria y Percusión
+                                </button>
+                                <div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">Bat. Acústicas</a>
                                     <a class="dropdown-item" href="#">Bat. Eléctronicas</a>
                                     <a class="dropdown-item" href="#">Platillos</a>
                                     <a class="dropdown-item" href="#">Percusión</a>
                                     <a class="dropdown-item" href="#">Hadware y Partes</a>
                                     <a class="dropdown-item" href="#">Acc. Bateria y Percusión</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Pianos y Teclados
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <a class="dropdown-item" href="#">Pianos</a>
-                                   <a class="dropdown-item" href="#">Teclados y Synth.</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Vientos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <a class="dropdown-item" href="#">Vientos Madera</a>
-                                   <a class="dropdown-item" href="#">Vientos Bronce</a>
-                                   <a class="dropdown-item" href="#">Acc. Vientos Madera</a>
-                                   <a class="dropdown-item" href="#">Acc. Vientos Bronce</a>
-                                   <a class="dropdown-item" href="#">Vientos teclas</a>
-                                   <a class="dropdown-item" href="#">Armonicas</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Home Studio
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <a class="dropdown-item" href="#">Mixer</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pianos y Teclados
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Pianos</a>
+                                    <a class="dropdown-item" href="#">Teclados y Synth.</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Vientos
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Vientos Madera</a>
+                                    <a class="dropdown-item" href="#">Vientos Bronce</a>
+                                    <a class="dropdown-item" href="#">Acc. Vientos Madera</a>
+                                    <a class="dropdown-item" href="#">Acc. Vientos Bronce</a>
+                                    <a class="dropdown-item" href="#">Vientos teclas</a>
+                                    <a class="dropdown-item" href="#">Armonicas</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Home Studio
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Mixer</a>
                                     <a class="dropdown-item" href="#">Procesador de Señal</a>
                                     <a class="dropdown-item" href="#">Monitores Estudio</a>
                                     <a class="dropdown-item" href="#">Acc. Microfono</a>
@@ -175,22 +123,20 @@
                                     <a class="dropdown-item" href="#">Midi y Controladores</a>
                                     <a class="dropdown-item" href="#">Interfaces de Audio</a>
                                     <a class="dropdown-item" href="#">Grabadoras</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Ofertas
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <a class="dropdown-item" href="#">Oferta del Dia</a>
-                                   <a class="dropdown-item" href="#">Oferta de la Semana</a>
-                                   <a class="dropdown-item" href="#">Oferta del Mes</a>
-        </div>
-        </li>
-        </ul>
-       </div>
-  </div>
-</nav>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Ofertas
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Oferta del Dia</a>
+                                    <a class="dropdown-item" href="#">Oferta de la Semana</a>
+                                    <a class="dropdown-item" href="#">Oferta del Mes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -201,13 +147,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="top: 3px">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img//Slides/Slide1.jpg" alt="First slide">
+                                <img class="d-block w-100" src="img/Oferta1.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img//Slides/Slide2.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="img/oferta 2.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img//Slides/Slide3.jpg" alt="Third slide">
+                                <img class="d-block w-100" src="img/oferta 3.jpg" alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -229,7 +175,7 @@
                 <div class="col">
                     <section class="col-12" id="section1">
                         <div>
-                            <h4 id="letra1"><strong>Productos Destacados</strong></h4>
+                            <h4><strong>Productos Destacados</strong></h4>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 650px;">
                         </div>
 
@@ -237,7 +183,7 @@
                             <div class="row">
                                 <div class="col" id="Cards">
                                     <div class="card" id="Cards">
-                                        <a href="DescripcionProducto.jsp"><img class="card-img-top" src="img/Productos/Destacado1.png" alt="Imagen Producto Destacado 1"></a>
+                                        <a href="DescripcionProducto.jsp"><img class="card-img-top" src="img/Destacado1.png" alt="Imagen Producto Destacado 1"></a>
                                         <div class="card-body">
                                             <h5 class="card-title">Guitarra Eléctrica Queen</h5>
                                             <p class="card-text">Diapason Palo rosa, 22 trastes, 2 cápsulas genéricas dobles, Switch 3 posiciones, Clavijeros standard</p>
@@ -248,7 +194,7 @@
                                 </div>
                                 <div class="col" id="Cards">
                                     <div class="card" id="Cards">
-                                        <img class="card-img-top" src="img/Productos/Destacado2.png" alt="Imagen Producto Destacado 2">
+                                        <img class="card-img-top" src="img/Destacado2.png" alt="Imagen Producto Destacado 2">
                                         <div class="card-body">
                                             <h5 class="card-title">Parlante Gabinete Bajo</h5>
                                             <p class="card-text">13 capas de 18 mm de abedul, 2 conectores de entrada paralelo</p>    
@@ -258,7 +204,7 @@
                                 </div>
                                 <div class="col" id="Cards">
                                     <div class="card" id="Cards">
-                                        <img class="card-img-top" src="img/Productos/Destacado3.png" alt="Imagen Producto Destacado 3">
+                                        <img class="card-img-top" src="img/Destacado3.png" alt="Imagen Producto Destacado 3">
                                         <div class="card-body">
                                             <h5 class="card-title">Máquina de Humo Carver</h5>
                                             <p class="card-text">Máquina de humo de 500 watts con 3 leds, Tiempo de calentamiento: 4 min.</p>
@@ -285,7 +231,7 @@
                             <%--Producto1--%>
                             <div id="imgP1">
                                 <div class="card" style="width: 10rem">
-                                    <img class="card-img-top" src="img/Productos/ProductoNuevo1.png" alt="Producto Nuevo 1" style="height: 8rem;">
+                                    <img class="card-img-top" src="img/ProductoNuevo1.png" alt="Producto Nuevo 1" style="height: 8rem;">
                                 </div>
                             </div>
                             <div id="desP1">
@@ -296,7 +242,7 @@
                             <%--Producto2--%>
                             <div id="imgP1">
                                 <div class="card" style="width: 10rem">
-                                    <img class="card-img-top" src="img/Productos/ProductoNuevo2.png" alt="Producto Nuevo 2" style="height: 8rem;">
+                                    <img class="card-img-top" src="img/ProductoNuevo2.png" alt="Producto Nuevo 2" style="height: 8rem;">
                                 </div>
                             </div>
                             <div id="desP1">
@@ -307,7 +253,7 @@
                             <%--Producto3--%>
                             <div id="imgP1">
                                 <div class="card" style="width: 10rem">
-                                    <img class="card-img-top" src="img/Productos/ProductoNuevo3.png" alt="Producto Nuevo 3" style="height: 8rem;">
+                                    <img class="card-img-top" src="img/ProductoNuevo3.png" alt="Producto Nuevo 3" style="height: 8rem;">
                                 </div>
                             </div>
                             <div id="desP1">
